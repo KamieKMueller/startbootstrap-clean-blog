@@ -17,7 +17,6 @@ GEM
       rack (~> 2.0)
       rack-protection (= 2.0.1)
       tilt (~> 2.0)
-    
     tilt (2.0.8)
 
 PLATFORMS
@@ -27,10 +26,9 @@ DEPENDENCIES
   pry
   shotgun
   sinatra
-  
 
 RUBY VERSION
    ruby 2.3.4p301
 
 BUNDLED WITH
-   1.15.2
+   1.16.1
