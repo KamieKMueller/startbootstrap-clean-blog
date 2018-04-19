@@ -6,4 +6,5 @@ gem 'pry'
 gem 'sinatra'
 # gem 'sqlite3'
 #gem pg
+gem 'puma'
 ruby '2.3.4'
