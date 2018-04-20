@@ -2,12 +2,12 @@ GEM
   remote: https://rubygems.org/
   specs:
     coderay (1.1.0)
-    json (1.8.6)
     method_source (0.8.2)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    puma (3.11.4)
     rack (1.5.2)
     rack-protection (1.5.3)
       rack
@@ -24,10 +24,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-
   pry
+  puma
   shotgun
   sinatra
 
+RUBY VERSION
+   ruby 2.3.4p301
+
 BUNDLED WITH
-   1.14.4
+   1.16.1
